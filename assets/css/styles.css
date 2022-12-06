@@ -1,0 +1,27 @@
+html, body {
+  margin: 0px;
+  background-color: darkolivegreen;
+  color: aliceblue;
+}
+
+
+.titulo {
+  text-align: center;
+ background-color: black; 
+ color: antiquewhite;
+ padding: 20px;
+ font-size: 25px;
+}
+/* el punto indica que es por css */
+.carta {
+position: relative;
+ width: 150px;
+left: 100px;
+margin-left: -75px;
+}
+ 
+/* se usa # porque se hace referencia al id  */
+#casino-carta, #jugador-carta  {
+height: 240px;
+
+}
